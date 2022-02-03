@@ -10,7 +10,8 @@
     "type": "module",
     "scripts": {
         "serve": "nodemon server.js",
-        "build": "node  server.js"
+        "build": "node  server.js",
+        "dev": "concurrently \"yarn server\" \"cd client && yarn start\" "
     },
     "devDependencies": {
         "concurrently": "^7.0.0",
