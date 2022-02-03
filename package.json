@@ -1,0 +1,23 @@
+{
+    "name": "proctorit",
+    "version": "0.1.0",
+    "description": "ProctorIT is an application that can monitor students throughout exams with or without the need for a teacher's aid.",
+    "main": "server.js",
+    "author": "DSAghicha",
+    "license": "MIT",
+    "private": true,
+    "repository": "https://github.com/DSAghicha/proctorit.git",
+    "type": "module",
+    "devDependencies": {
+        "concurrently": "^7.0.0",
+        "nodemon": "^2.0.15"
+    },
+    "dependencies": {
+        "cookie-parser": "^1.4.6",
+        "dotenv": "^16.0.0",
+        "express": "^4.17.2",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.2.0",
+        "nodemailer": "^6.7.2"
+    }
+}
