@@ -8,6 +8,10 @@
     "private": true,
     "repository": "https://github.com/DSAghicha/proctorit.git",
     "type": "module",
+    "scripts": {
+        "serve": "nodemon server.js",
+        "build": "node  server.js"
+    },
     "devDependencies": {
         "concurrently": "^7.0.0",
         "nodemon": "^2.0.15"
