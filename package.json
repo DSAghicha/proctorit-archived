@@ -7,7 +7,6 @@
     "license": "MIT",
     "private": true,
     "repository": "https://github.com/DSAghicha/proctorit.git",
-    "type": "module",
     "scripts": {
         "serve": "nodemon server.js",
         "build": "node  server.js",
