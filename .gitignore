@@ -8,6 +8,9 @@ node_modules/
 # PRODUCTION
 client/build
 
+# API TESTING
+api.http
+
 # MISC
 .DS_Store
 config.env
